@@ -5,5 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AudioActivity">
+    <Button
+        android:id="@+id/btnplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="160dp"
+        android:background="@drawable/inbut_bg"
+        android:text="play here "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewplay"
+        android:layout_width="139dp"
+        android:layout_height="304dp"
+        android:layout_margin="20dp"
+        android:layout_marginBottom="644dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnplay"
+        app:layout_constraintVertical_bias="0.033"
+        app:srcCompat="@drawable/ic_baseline_play_arrow_24" />
+
+    <!-- <Button
+         android:id="@+id/btnpausea"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="64dp"
+         android:text="pause"
+         android:background="@drawable/input_bg"
+         app:layout_constraintEnd_toStartOf="@+id/btnsa"
+         app:layout_constraintHorizontal_bias="0.6"
+         android:onClick="onPause"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent" />
+
+     <Button
+         android:id="@+id/btnsa"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="64dp"
+         android:onClick="stop"
+         android:layout_marginEnd="20dp"
+         android:text="stop"
+         android:background="@drawable/input_bg"
+         app:layout_constraintEnd_toStartOf="@+id/btnpa"
+         app:layout_constraintTop_toTopOf="parent" />
+         -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
